@@ -3,6 +3,7 @@ import { Dot } from 'lucide-react';
 import BookingButton from './BookingButton';
 import Button from './Button';
 import CountDown from './CountDown';
+import VideoPlayer from './VideoPlayer';
 
 
 const event = {
@@ -21,7 +22,7 @@ const event = {
 function Hero() {
   return (
     <div className='px-8 py-20 bg-ink'>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="flex flex-col gap-6">
                 <div className="flex flex-col gap-2">
                     <h3 className="text-gold text-xs font-semibold tracking-widest uppercase">{event.presented_by} presents</h3>
@@ -50,6 +51,12 @@ function Hero() {
                 <CountDown target={event.iso} />
 
 
+            </div>
+
+            {/* video section */}
+
+            <div className="flex items-stretch justify-center">
+                <VideoPlayer videoId="1228743282" title="180926 - Shobana Pre Launch Event (v3)" />
             </div>
 
         </div>
