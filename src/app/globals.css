@@ -28,7 +28,7 @@
 }
 
 .shine-border {
-  background-color: var(--color-gold);
+  
   animation: shine-blink 3.5s ease-in-out infinite;
 }
 

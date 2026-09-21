@@ -22,7 +22,7 @@ const event = {
 function Hero() {
   return (
     <div className='px-8 py-20 bg-ink'>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 tablet:grid-cols-2 gap-8">
             <div className="flex flex-col gap-6">
                 <div className="flex flex-col gap-2">
                     <h3 className="text-gold text-xs font-semibold tracking-widest uppercase">{event.presented_by} presents</h3>

@@ -1,3 +1,4 @@
+import EventDateSection from '@/components/EventDateSection'
 import Hero from '@/components/Hero'
 import MarqueSection from '@/components/MarqueSection'
 import React from 'react'
@@ -7,6 +8,7 @@ function page() {
     <div>
       <Hero/>
       <MarqueSection/>
+      <EventDateSection/>
       
     </div>
   )
