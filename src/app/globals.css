@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@theme inline {
+  --font-lora: var(--font-lora);
+  --font-cormorant: var(--font-cormorant-garamond);
+
+  --color-ink: #160A07;
+  --color-ink-2: #24110A;
+  --color-brown: #3E1B0E;
+  --color-crimson: #7A1214;
+  --color-crimson-lit: #A21C1B;
+  --color-gold: #EFC786;
+  --color-gold-deep: #C9A05F;
+  --color-cream: #F7E9D6;
+  --color-line: rgba(239, 199, 134, 0.22);
+}
+
+
