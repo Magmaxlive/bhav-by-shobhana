@@ -1,3 +1,4 @@
+import ArtistSection from '@/components/ArtistSection'
 import EventDateSection from '@/components/EventDateSection'
 import Hero from '@/components/Hero'
 import MarqueSection from '@/components/MarqueSection'
@@ -9,7 +10,7 @@ function page() {
       <Hero/>
       <MarqueSection/>
       <EventDateSection/>
-      
+      <ArtistSection/>
     </div>
   )
 }
