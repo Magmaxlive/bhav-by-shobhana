@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <>
     <nav className={`sticky top-0 z-50`}>
-            <div className="py-4 backdrop-blur-lg font-lora bg-ink text-text border-b border-primary/30">
+            <div className="py-4 backdrop-blur-lg font-lora bg-ink text-text border-b border-line">
             <div className="px-6">
                 <div className="mx-auto container max-w-7xl  text-base">
                 <div className="flex justify-between items-center">

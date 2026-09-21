@@ -15,6 +15,11 @@
   --color-cream: #F7E9D6;
   --color-text:#D9C3A8;
   --color-line: rgba(239, 199, 134, 0.22);
+
+  --text-10xl: 10rem;
+  --text-11xl: 12rem;
+  --text-12xl: 14rem;
+  --text-hero: clamp(5rem, 17vw, 12rem);
 }
 
 @keyframes shine-blink {
@@ -25,6 +30,10 @@
 .shine-border {
   background-color: var(--color-gold);
   animation: shine-blink 3.5s ease-in-out infinite;
+}
+
+body{
+  font-family: var( --font-lora);
 }
 
 
