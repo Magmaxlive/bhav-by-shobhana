@@ -13,7 +13,36 @@
   --color-gold: #EFC786;
   --color-gold-deep: #C9A05F;
   --color-cream: #F7E9D6;
+  --color-text:#D9C3A8;
   --color-line: rgba(239, 199, 134, 0.22);
+
+  --text-10xl: 10rem;
+  --text-11xl: 12rem;
+  --text-12xl: 14rem;
+  --text-hero: clamp(5rem, 17vw, 12rem);
+}
+
+@keyframes shine-blink {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(239, 199, 134, 0); }
+  50%      { box-shadow: 0 0 0 8px rgba(167, 151, 125, 0.9); }
+}
+
+.shine-border {
+  
+  animation: shine-blink 3.5s ease-in-out infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+body{
+  font-family: var( --font-lora);
 }
 
 

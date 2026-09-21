@@ -1,5 +1,6 @@
 import { Lora, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
 
 const lora = Lora({
   subsets: ["latin"],
@@ -25,7 +26,10 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${lora.variable} ${cormorantGaramond.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Header/>
+        {children}
+        </body>
     </html>
   );
 }
