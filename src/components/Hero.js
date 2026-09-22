@@ -49,7 +49,7 @@ function Hero() {
 
                 <div className="flex gap-4 mt-4 flex-wrap">
                     <BookingButton text='book on ticketmaster' px='px-6' py='py-5'/>
-                    <Button text='watch the film' link='#film' px='px-6' py='py-5'/>
+                    <Button text='watch the film' offset={-100} link='preLaunch' px='px-6' py='py-5'/>
                 </div>
 
                 <CountDown target={event.iso} />

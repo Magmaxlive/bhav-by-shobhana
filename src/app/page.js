@@ -4,6 +4,7 @@ import ExpectSection from '@/components/ExpectSection'
 import ExperienceSection from '@/components/ExperienceSection'
 import Hero from '@/components/Hero'
 import MarqueSection from '@/components/MarqueSection'
+import PreLaunch from '@/components/PreLaunch'
 import React from 'react'
 
 function page() {
@@ -15,6 +16,7 @@ function page() {
       <ArtistSection/>
       <ExperienceSection/>
       <ExpectSection/>
+      <PreLaunch/>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import SectionHeading from './SectionHeading'
 
 const content = {
   "eyebrow": "EXPERIENCE BHAV",
@@ -14,10 +15,7 @@ function ExperienceSection() {
   return (
     <div className='py-20 px-8 bg-ink-2'>
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex flex-col gap-4">
-                <h3 className="text-sm uppercase text-gold font-bold tracking-widest">{content.eyebrow}</h3>
-                <h1 className="tablet:text-6xl text-5xl max-w-lg leading-tight font-bold capitalize font-cormorant text-cream tracking-wider">{content.heading}</h1>
-            </div>
+            <SectionHeading eyebrow={content.eyebrow} heading={content.heading}/>
 
             <div className="flex flex-col gap-6 text-text">
                 {content.body.map((i,index)=>(

@@ -1,17 +1,17 @@
 export const links = [
     {
         title:'shobhana',
-        link:'#shobhana',
+        link:'shobhana',
         offset:''
     },
      {
         title:'the evening',
-        link:'#evening',
+        link:'evening',
         offset:''
     },
      {
         title:'watch',
-        link:'#watch',
+        link:'preLaunch',
         offset:''
     },
      {
