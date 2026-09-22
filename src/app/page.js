@@ -2,6 +2,7 @@ import ArtistSection from '@/components/ArtistSection'
 import EventDateSection from '@/components/EventDateSection'
 import ExpectSection from '@/components/ExpectSection'
 import ExperienceSection from '@/components/ExperienceSection'
+import GoodtoKnowSection from '@/components/GoodtoKnowSection'
 import Hero from '@/components/Hero'
 import MarqueSection from '@/components/MarqueSection'
 import PreLaunch from '@/components/PreLaunch'
@@ -19,6 +20,7 @@ function page() {
       <ExpectSection/>
       <PreLaunch/>
       <VenueSection/>
+      <GoodtoKnowSection/>
     </div>
   )
 }
