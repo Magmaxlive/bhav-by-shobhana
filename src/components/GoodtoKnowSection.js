@@ -35,7 +35,7 @@ const content = {
 
 function GoodtoKnowSection() {
   return (
-    <div className='px-8 py-20 bg-gradient-to-b from-ink to-ink-2'>
+    <div className='px-8 py-20 bg-gradient-to-b from-ink to-ink-2' id='good-to-know'>
         <div className="max-w-7xl mx-auto flex flex-col gap-10">
             <SectionHeading eyebrow={content.eyebrow} heading={content.heading}/>
             <div className="grid grid-cols-1 md:grid-cols-2 tablet:grid-cols-3 gap-8">

@@ -19,7 +19,7 @@ const content = {
   },
   "eyebrow": "ONE NIGHT ONLY",
   "heading": {
-    "main": <>Be part of <span className='font-cormorant text-gold italic'>BHAV</span> </>,
+    "main": 'be part of BHAV',
     
   },
   "details": {
@@ -84,7 +84,7 @@ function BhavSection() {
               'linear-gradient(to right, rgba(27, 5, 6, 0.96) 0%, rgba(34, 7, 9, 0.85) 40%, rgba(34, 8, 9, 0.6) 100%), radial-gradient(60% 80% at 80% 50%, rgba(122, 18, 20, .35), transparent 70%)',
           }}
         />
-        <div className="relative z-10 max-w-7xl mx-auto flex flex-col gap-6">
+        <div className="relative z-10 max-w-7xl mx-auto flex flex-col gap-8">
             <SectionHeading eyebrow={content.eyebrow} heading={content.heading.main} align='justify-center items-center'/>
              <div className="flex gap-1 md:flex-row flex-col py-4 border-y border-line justify-center items-center flex-wrap">
                     <h3 className="font-semibold font-cormorant text-2xl capitalize text-text">{content.details.date}</h3>     <Dot className='text-crimson md:flex hidden' size={30} />
@@ -110,13 +110,13 @@ function BhavSection() {
                   href={content.share.buttons[0].href}
                   target='_blank'
                   rel='noreferrer'
-                  className="flex items-center gap-2 px-4 py-3 border border-line text-text hover:bg-ink/40 transition"
+                  className="flex items-center gap-2 px-4 py-3 border border-line text-text bg-ink hover:bg-ink/40 transition"
                 >
                   <WhatsAppIcon /> <span className="uppercase text-sm tracking-wider font-lora font-bold">Whatsapp</span>
                 </a>
                 <button
                   onClick={handleShare}
-                  className="flex items-center gap-2 px-4 py-3 border border-line text-text hover:bg-ink/40 transition"
+                  className="flex items-center gap-2 px-4 py-3 border border-line text-text bg-ink hover:bg-ink/40 transition"
                 >
                   <Upload size={16} /> <span className="uppercase text-sm tracking-wider font-lora font-bold">Share</span>
                 </button>
