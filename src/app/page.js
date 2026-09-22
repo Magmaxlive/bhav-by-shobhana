@@ -3,6 +3,7 @@ import BhavSection from '@/components/BhavSection'
 import EventDateSection from '@/components/EventDateSection'
 import ExpectSection from '@/components/ExpectSection'
 import ExperienceSection from '@/components/ExperienceSection'
+import FloatingBtn from '@/components/FloatingBtn'
 import GoodtoKnowSection from '@/components/GoodtoKnowSection'
 import Hero from '@/components/Hero'
 import MarqueSection from '@/components/MarqueSection'
@@ -23,6 +24,7 @@ function page() {
       <VenueSection/>
       <GoodtoKnowSection/>
       <BhavSection/>
+      <FloatingBtn/>
     </div>
   )
 }
