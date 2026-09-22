@@ -1,4 +1,5 @@
 import ArtistSection from '@/components/ArtistSection'
+import BhavSection from '@/components/BhavSection'
 import EventDateSection from '@/components/EventDateSection'
 import ExpectSection from '@/components/ExpectSection'
 import ExperienceSection from '@/components/ExperienceSection'
@@ -21,6 +22,7 @@ function page() {
       <PreLaunch/>
       <VenueSection/>
       <GoodtoKnowSection/>
+      <BhavSection/>
     </div>
   )
 }
