@@ -21,8 +21,12 @@ const event = {
 
 function Hero() {
   return (
-    <div className='px-8 py-20 bg-ink'>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 tablet:grid-cols-2 gap-8">
+    <div className='relative overflow-hidden px-8 py-25 bg-ink'>
+        <div className="absolute inset-0 z-0">
+            <VideoPlayer videoId="1228743282" title="180926 - Shobana Pre Launch Event (v3)" background />
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto">
             <div className="flex flex-col gap-6">
                 <div className="flex flex-col gap-2">
                     <h3 className="text-gold text-xs font-semibold tracking-widest uppercase">{event.presented_by} presents</h3>
@@ -45,22 +49,13 @@ function Hero() {
 
                 <div className="flex gap-4 mt-4 flex-wrap">
                     <BookingButton text='book on ticketmaster' px='px-6' py='py-5'/>
-                    <Button text='watch the film' link='#film' px='px-6' py='py-5'/>
+                    <Button text='watch the film' offset={-100} link='preLaunch' px='px-6' py='py-5'/>
                 </div>
 
                 <CountDown target={event.iso} />
-
-
             </div>
-
-            {/* video section */}
-
-            <div className="flex items-stretch justify-center">
-                <VideoPlayer videoId="1228743282" title="180926 - Shobana Pre Launch Event (v3)" />
-            </div>
-
         </div>
-      
+
     </div>
   )
 }
