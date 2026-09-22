@@ -61,7 +61,7 @@ function ArtistSection() {
 
             <div className="mt-15 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-5 md:grid-cols-2 tablet:grid-cols-3 gap-3">
                         {images.map((i,index)=>(
-                            <div className="relative flex aspect-[3/4]">
+                            <div key={index} className="relative flex aspect-[3/4]">
                             <Image src={i} alt='shobana image' fill className='object-cover' />
                         </div>
                             ))}

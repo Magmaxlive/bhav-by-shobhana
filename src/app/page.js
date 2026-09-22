@@ -1,5 +1,6 @@
 import ArtistSection from '@/components/ArtistSection'
 import EventDateSection from '@/components/EventDateSection'
+import ExpectSection from '@/components/ExpectSection'
 import ExperienceSection from '@/components/ExperienceSection'
 import Hero from '@/components/Hero'
 import MarqueSection from '@/components/MarqueSection'
@@ -13,6 +14,7 @@ function page() {
       <EventDateSection/>
       <ArtistSection/>
       <ExperienceSection/>
+      <ExpectSection/>
     </div>
   )
 }
