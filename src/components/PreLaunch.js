@@ -24,7 +24,7 @@ const content ={
 function PreLaunch() {
   return (
     <div className='bg-ink px-8 py-20' id='preLaunch'>
-        <div className="max-w-7xl mx-auto flex flex-col gap-8">
+        <div className="max-w-7xl mx-auto flex flex-col gap-10">
             <SectionHeading eyebrow={content.eyebrow} heading={content.heading}/>
 
             <div className='bg-ink-2 border border-line overflow-hidden'>

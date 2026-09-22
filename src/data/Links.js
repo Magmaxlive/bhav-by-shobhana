@@ -16,9 +16,10 @@ export const links = [
     },
      {
         title:'venue',
-        link:'#venue',
+        link:'venue',
         offset:''
     }
 ]
 
 export const BookingLink='https://www.ticketmaster.co.nz/shobana-tickets/artist/4642591'
+export const VenueLink='https://www.google.com/maps?q=Bruce+Mason+Centre,+Takapuna,+Auckland'
