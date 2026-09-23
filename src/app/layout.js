@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       className={`${lora.variable} ${cormorantGaramond.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <head>
         <script>

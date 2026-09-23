@@ -47,7 +47,7 @@ function Footer() {
   return (
     <footer className='px-8 py-16 bg-ink border-t border-line'>
       <div className='max-w-7xl mx-auto flex flex-col gap-12'>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10'>
           <div className='flex flex-col gap-4'>
             <h2 className='text-gold text-3xl font-cormorant font-bold tracking-widest'>{content.brand.name}</h2>
             <p className='text-text/80 text-sm leading-relaxed max-w-xs'>{content.brand.tagline}</p>
@@ -86,12 +86,12 @@ function Footer() {
             </div>
           </div>
 
-          <div className='flex flex-col gap-4'>
+          {/* <div className='flex flex-col gap-4'>
             <h3 className='text-gold text-sm font-bold font-cormorant font-bold tracking-widest uppercase'>{content.sponsor.label}</h3>
             <div className='bg-cream p-4 w-fit'>
               <img src={content.sponsor.logo} alt={content.sponsor.name} className='h-16 w-auto' />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className='flex flex-col md:flex-row md:items-center md:justify-between gap-4 pt-8 border-t border-line'>
