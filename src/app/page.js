@@ -8,6 +8,7 @@ import GoodtoKnowSection from '@/components/GoodtoKnowSection'
 import Hero from '@/components/Hero'
 import MarqueSection from '@/components/MarqueSection'
 import PreLaunch from '@/components/PreLaunch'
+import SponsorSection from '@/components/SponsorSection'
 import VenueSection from '@/components/VenueSection'
 import React from 'react'
 
@@ -24,6 +25,7 @@ function page() {
       <VenueSection/>
       <GoodtoKnowSection/>
       <BhavSection/>
+      <SponsorSection/>
       <FloatingBtn/>
     </div>
   )
