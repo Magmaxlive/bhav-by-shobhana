@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @config "../../tailwind.config.js";
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 @theme inline {
   --font-lora: var(--font-lora);
   --font-cormorant: var(--font-cormorant-garamond);

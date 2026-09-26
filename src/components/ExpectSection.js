@@ -40,7 +40,7 @@ const content = {
 
 function ExpectSection() {
   return (
-    <div className='px-8 py-20 bg-gradient-to-b from-crimson-lit to-crimson' id='evening'>
+    <div className='px-8 py-20 bg-gradient-to-b from-crimson-lit to-crimson scroll-mt-24' id='evening'>
       <div className="max-w-7xl mx-auto flex flex-col gap-10">
 
         <SectionHeading 

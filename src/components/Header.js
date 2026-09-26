@@ -1,8 +1,8 @@
-'use client';
+'use client'
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import {Menu,X} from 'lucide-react';
-import {Link} from 'react-scroll'
+import Link from "next/link";
 import { links } from "@/data/Links";
 import BookingButton from "./BookingButton";
 
@@ -28,12 +28,12 @@ export default function Header() {
             <div className="px-6">
                 <div className="mx-auto container max-w-7xl  text-base">
                 <div className="flex justify-between items-center">
-                    <h1 className="text-3xl font-bold font-cormorant text-gold tracking-widest">BHAV</h1>
+                    <Link href="/#hero" className="text-3xl font-bold font-cormorant cursor-pointer text-gold tracking-widest">BHAV</Link>
 
                     <ul className="hidden lg:flex space-x-12">
                         {
                             links.map((i,index)=>(
-                                <li key={index}><Link to={i.link} offset={-100} smooth={true} duration={500} className='cursor-pointer text-sm transition-all duration-300 uppercase font-semibold tracking-widest hover:text-white hover:underline underline-offset-8'>{i.title}</Link></li>
+                                <li key={index}><Link href={`/#${i.link}`}  className='cursor-pointer text-sm transition-all duration-300 uppercase font-semibold tracking-widest hover:text-white hover:underline underline-offset-8'>{i.title}</Link></li>
 
                             ))
                         }
@@ -58,7 +58,7 @@ export default function Header() {
                              <ul className="flex flex-col gap-3">
                                 {
                             links.map((i,index)=>(
-                                <li key={index}><Link to={i.link} offset={-100} smooth={true} duration={500} className='cursor-pointer text-sm transition-all duration-300 uppercase font-semibold tracking-widest hover:text-white hover:underline underline-offset-8'>{i.title}</Link></li>
+                                <li key={index}><Link href={`/#${i.link}`}  className='cursor-pointer text-sm transition-all duration-300 uppercase font-semibold tracking-widest hover:text-white hover:underline underline-offset-8'>{i.title}</Link></li>
 
                             ))
                         }

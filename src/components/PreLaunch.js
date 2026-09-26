@@ -23,7 +23,7 @@ const content ={
 
 function PreLaunch() {
   return (
-    <div className='bg-ink px-8 py-20' id='preLaunch'>
+    <div className='bg-ink px-8 py-20 scroll-mt-24' id='preLaunch'>
         <div className="max-w-7xl mx-auto flex flex-col gap-10">
             <SectionHeading eyebrow={content.eyebrow} heading={content.heading}/>
 

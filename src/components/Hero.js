@@ -21,7 +21,7 @@ const event = {
 
 function Hero() {
   return (
-    <div className='relative overflow-hidden px-8 py-25 bg-ink'>
+    <div className='relative overflow-hidden px-8 py-25 bg-ink scroll-mt-24' id='hero'>
         <div className="absolute inset-0 z-0">
             <VideoPlayer videoId="1228743282" title="180926 - Shobana Pre Launch Event (v3)" background />
         </div>

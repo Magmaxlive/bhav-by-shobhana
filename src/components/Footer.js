@@ -1,8 +1,7 @@
 'use client'
 import React from 'react'
 import { BookingLink, VenueLink } from '@/data/Links'
-import { Link } from 'react-scroll'
-
+import Link from 'next/link'
 const content = {
   brand: {
     name: 'BHAV',
@@ -79,7 +78,7 @@ function Footer() {
             <h3 className='text-gold text-sm font-bold font-cormorant tracking-widest uppercase'>{content.explore.label}</h3>
             <div className='flex flex-col gap-2'>
               {content.explore.links.map((l) => (
-                <Link key={l.text} to={l.href} offset={-100} smooth={true} className='cursor-pointer text-text hover:text-gold transition text-sm w-fit'>
+                <Link key={l.text} href={`/#${l.href}`}  className='cursor-pointer text-text hover:text-gold transition text-sm w-fit'>
                   {l.text}
                 </Link>
               ))}

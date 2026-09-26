@@ -32,7 +32,7 @@ const images= [
 function ArtistSection() {
   return (
     <div>
-        <div className="px-8 py-20 bg-ink" id='shobhana'>
+        <div className="px-8 py-20 bg-ink scroll-mt-24" id='shobhana'>
             <div className="max-w-7xl mx-auto grid grid-cols-1 tablet:grid-cols-2 gap-15">
                 <div className="relative flex aspect-[3/4] md:aspect-square tablet:aspect-[5/6] after:content-[''] after:absolute after:inset-0 after:border after:border-gold/35 after:translate-x-[14px] after:translate-y-[14px] after:pointer-events-none">
                     <Image src={artistDetails.image} alt={artistDetails.title} fill className='object-cover' />

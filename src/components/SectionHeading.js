@@ -2,7 +2,7 @@ import React from 'react'
 
 function SectionHeading({eyebrow,heading,accent,eybrowColor='text-gold',headingColor='text-cream',align='justify-start items-start',textAlign='text-start',maxW}) {
   return (
-    <h className={`flex flex-col gap-4 ${align}`}>
+    <div className={`flex flex-col gap-4 ${align}`}>
         {eyebrow &&
             <h3 className={`text-sm uppercase text-gold font-bold tracking-widest ${textAlign}`}>{eyebrow}</h3>
         }
@@ -16,7 +16,7 @@ function SectionHeading({eyebrow,heading,accent,eybrowColor='text-gold',headingC
             }
         </div>
         }
-    </h>
+    </div>
   )
 }
 

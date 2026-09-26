@@ -29,7 +29,7 @@ const content = {
 
 function VenueSection() {
   return (
-    <div className='bg-ink-2 px-8 py-20 border-y border-line' id='venue'>
+    <div className='bg-ink-2 px-8 py-20 border-y border-line scroll-mt-24' id='venue'>
       <div className="max-w-7xl mx-auto grid grid-cols-1 tablet:grid-cols-2 gap-10">
         <div className="flex flex-col gap-6">
             <SectionHeading eyebrow={content.eyebrow} heading={content.heading} maxW='max-w-lg'/>
